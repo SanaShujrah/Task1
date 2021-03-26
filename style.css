@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+*{                   /* '*(unversal operator)' means to select all the elements */
+    padding: 0;          /* these lines are writen to reset the default style of the browser*/
+    margin: 0;
+    box-sizing: border-box;  /* by using this property we can padding and border without worrying about the size of the box*/
+    --webkit-font-smothing: antialiased;  /* this is used for smothing all the fonts*/
+    }
+    
+  body
+  {
+      background-color: black;
+  } 
+
+header
+{
+    color: seashell;
+    font-family: 'Poppins';
+}
+
+.image img
+{
+    margin-top: 4rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 350px;
+    width: 350px;
+    border-radius: 50% 50%; 
+    border-style:solid;
+    border-width: 8px;
+    border-color:grey;
+
+}
+h1{
+    margin-top: 3rem;
+    margin-left: 62.5%;
+    transform: translateX(-62.5%);
+}
+
+
+
+#container{
+    margin-top: 3rem;
+    display: flex; 
+   
+}
+
+.intro
+
+{   
+    width:50%;
+    font-family: 'Poppins';
+    background-color: pink;
+    border-radius: 10px;
+    transform: translateX(-5%);
+    margin:5%;
+    padding: 2%;
+    text-align: justify;
+    border-style:solid;
+    border-width: 8px;
+    border-color:grey; 
+  
+}
+.intro:hover
+{
+    transition: all .3s ease;
+    background-color: grey;
+    border-color: pink;
+    color: seashell;
+    font-size: 18px;
+}
+.studies
+{   
+    width:50%;
+    font-family: 'Poppins';
+    background-color: pink;
+    border-radius: 10px;
+    margin:5%;
+    padding: 2%;
+    transform: translateX(-5%);
+    text-align: justify;
+    border-style:solid;
+    border-width: 8px;
+    border-color:grey;
+    
+}
+.studies:hover
+{
+    transition: all .3s ease;
+    background-color: grey;
+    border-color: pink;
+    font-size: 18px;
+    color: seashell;
+}
+ 
+h2{
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+p{
+    font-family: 'Poppins';
+    text-align: justify;
+}
+
+ .table{
+    font-family: 'Poppins';
+
+    display:flex;
+    justify-content: center;
+    padding:1%;
+    text-transform:uppercase;
+}
+.table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    color: seashell;
+}
+.R1{
+    background-color: skyblue;
+    padding: 15px;
+}
+.R1:hover
+{
+    transition: all .3s ease;
+    background-color: black;
+    color: seashell;
+}
+.R2{
+    background-color: skyblue;
+    padding: 15px;
+}
+
+.R2:hover
+{
+    transition: all .3s ease;
+    background-color: black;
+    color: seashell;
+}
+.R3{
+    background-color: skyblue;
+    padding: 15px;
+}
+
+.R3:hover
+{
+    transition: all .3s ease;
+    background-color: black;
+    color: seashell;
+}
+ @media(max-width: 998px){
+   html{
+       font-size: 55%;
+   }
+}
+@media(max-width: 768px){
+    html{
+        font-size: 45%;
+    }
+ }
